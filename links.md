@@ -1,6 +1,21 @@
-# links
+## Credits
 
-A realm should come, for now...
+- [Gno.land](https://gno.land)'s gnoweb, the GNO chain, GNO VM.
+- [Space Icons Set](https://iconduck.com/sets/space-icons-set) (see [/svg/](/svg)) under the terms of Creative Commons Attribution 4, courtesy of [Agata Kuczmińska](https://iconduck.com/designers/agata-kuczminska).
 
-It's empty.
+## Links
 
+* [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid)
+* gnAsteroid.style-gnosmos: a simple style you can use and modify.
+* [gnAsteroid.docker](https://github.com/grepsuzette/gnAsteroid.docker): a Dockerfile to help serve asteroids (especially on [Akash](https://console.akash.network))
+
+
+## TODO
+
+- [ ] helper for realms must go to gno.land
+- [x] publishing
+- [x] better `<table>` styling
+- [ ] realm to register, link and share asteroids
+- [ ] converge with gnoweb's views so we can remove ./views
+- [ ] should path/file(.md) appear in header bar? (probably)
+- [ ] online editing (maybe, but much later)

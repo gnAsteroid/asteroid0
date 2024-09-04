@@ -1,59 +1,29 @@
-**GnAsteroid** is a small project based on gno.land allowing anyone to create their own asteroid(s).
+# Asteroids
 
-Technically, an asteroid is an alternative frontend to https://gno.land.
+**Asteroids** gravitate around [gno.land](wiki/gnoland.md). 
 
-An asteroid: 
+They can be thought of as markdown wikis that are aware of GNO [realms](wiki/realm.md).
 
-* can be a blog, a personal or official page, a website,
-* uses markdown (the markdown can embed html for things like `<form>` and `<map>`),
-* can directly render Realms (GNO smart contracts) from https://gno.land,
-* can have routes to/from other asteroids.
+<!--Use them for scribbles, casual-blogging about crypto, notes, scratches, demo, etc.-->
 
-<!--------------------------------------
-# wait, why not just r/demo/microblog
+## comparison
 
-A blog on a blockchain, rendered by a Realm, is different from a set of editable markdown documents which can render Realms.
+| gno.land                                                       | Asteroids                                            |
+| -----------------                                              | ------------------                                   |
+| main land of GNO                                               | blogs, personal pages, small websites                |
+| has its own chain                                              | use gno.land for realms                              |
+| operated by the GNO team                                       | operated individually                                |
+| homepage is a realm ([/r/gnoland/blog](/r/gnoland/blog)) | markdown wikis                                       |
+| can link and render realms                                     | can link and render realms from gno.land<sup>1</sup> |
+| provides a helper to do transactions                           | wallet transactions redirect to gno.land             |
+| fixed styling                                                  | interchangeable styling (`-style-dir <dir>`)         |
+| imports `pkg/gnoweb`                                           | import `pkg/gnoweb`                                  |
+| run with `cmd/gnoweb`                                          | run with `gnAsteroid`                                |
 
-Since Asteroids can render Realms, they can always embed blogs like [r/demo/microblog](https://gno.land/r/demo/microblog), but the opposite is not true at the moment.
------------------------------------------>
+<sup>1</sup>: you may be curious how<!--(how they can render realms)-->. <!--It's explained on this [page](usage.md) (look for "gnoface").--> Consider this snippet in Markdown: `[try tic-tac-toe](/r/demo/games/tictactoe)`; it renders as: [try tic-tac-toe](/r/demo/games/tictactoe) ← Clicking this will show that realm rendering *right* on this asteroid (even though it runs on the gno.land chain). 
 
-# interdependent independance
+---------
 
-Asteroids are independent: 
+<img src=/svg/alien-4.svg hspace=5 align=left />**Warning**: When security matters always check things on gno.land. Even though you can not run wallet transactions on asteroids, you should never trust them. The point of asteroids is to provide rich blogging and reading experience. As soon as you want to check or do something that matters, do it directly on https://gno.land.
 
-* **editorially** :: they're a bunch of markdown files, 
-* **stylistically** :: each Asteroid can use whichever style it wants,
-* **physically** :: not served by the webserver at gno.land, implying they have their own workload.
 
-Asteroids all rely on gno.land for the Realms. They can also have routes to other asteroids (TODO link to doc).
-
-# inspiration
-
-The world wide web, even pre-HTML, really started connecting documents of computer scientists, researchers or students through hyperlinks. It was creating lines between islands, too remote to be discerned.  A bit later, personal and corporate webpages became a thing, surviving until now as blogs.
-
-# dependence/independence 
-
-If GNO is to emerge from the busy noise of the coinverse, its editorial content (everything non-code related) needs to find its **balance** on the dependence/independence continuum. 
-
-Here are 2 extremes of this continuum:
-
-1. All the content is on gno.land (i.e. everything on-chain):
-   * same colorscheme,
-   * same header/footer,
-   * inability to work with offchain documents,
-   * => dampened creativity.
-2. dApps, SPA (single-page application) with connection to gno.land:
-   * lack of simplicity (lot of work),
-   * lack of standards,
-   * => high barrier of entry
-   * => missed opportunity of content creation.
-
-There remains in the beginning some unaddressed space in the middle. One particular point of balance can initially be asteroids, which may give shape to loose communities of:
-
-* enthusiasts, 
-* programmers, 
-* bloggers, 
-* influencers,
-* teams. 
-
-While Asteroids don't amount to much technologically, they're easy and fast to work with.

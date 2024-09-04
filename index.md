@@ -1,6 +1,8 @@
-Welcome to the *Gnosmos*!
+This asteroid uses and presents **gnAsteroid**, a starter-kit for asteroids.
 
-Asteroids are unofficial websites organized around https://gno.land, utilizing [gnAsteroid](https://github.com/grepsuzette/gnAsteroid). This asteroid was the first to come to existence. Be well-come.
+><img src=svg/atronaut.svg align=right title="Hey ya! Welcome to the Gnosmos!" /> **Asteroids** are blogs and small websites gravitating around https://gno.land, a distributed platform utilizing **Go smart-contracts**.<!--Asteroids are devoid of Javascript and can be thought of as *markdown wikis*.-->
+
+This asteroid was the first to come to existence. Be well-come.
 ```
               .                      .
               .                      ;
@@ -18,6 +20,4 @@ Asteroids are unofficial websites organized around https://gno.land, utilizing [
      Ojo      .       *
 ```
 
-[Asteroids?](about) ⊛ [Create an asteroid](usage/) ⊛ [Links](links)
-
-
+[Asteroids?](about.md) ⊛ [Creating an asteroid](usage.md) ⊛ [Links](links.md)
