@@ -6,8 +6,7 @@
 ## Links
 
 * [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid)
-* gnAsteroid.style-gnosmos: a simple style you can use and modify.
-* [gnAsteroid.docker](https://github.com/grepsuzette/gnAsteroid.docker): a Dockerfile to help serve asteroids (especially on [Akash](https://console.akash.network))
+* [gnAsteroid.docker](https://github.com/gnAsteroid/gnAsteroid.docker): a Dockerfile to help serve asteroids (especially on [Akash](https://console.akash.network))
 
 
 ## TODO
