@@ -6,7 +6,7 @@
 ## Links
 
 * [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid)
-* [gnAsteroid.docker](https://github.com/gnAsteroid/gnAsteroid.docker): a Dockerfile to help serve asteroids (especially on [Akash](https://console.akash.network))
+* [gnAsteroid.akash](https://github.com/gnAsteroid/gnAsteroid.akash): a Dockerfile to help serve asteroids (especially on [Akash](https://console.akash.network))
 
 
 ## TODO
